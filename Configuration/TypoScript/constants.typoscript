@@ -1,0 +1,62 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/constants.typoscript">
+
+
+############
+### PAGE ###
+############
+page {
+    logo {
+        file = EXT:mainzific_rim/Resources/Public/Images/logo.svg
+        fileInverted = EXT:mainzific_rim/Resources/Public/Images/logo-inverted.svg
+        height = 52
+        width = 192
+        alt = Mainzific Rim
+        linktitle = Mainzific Rim
+    }
+    favicon {
+        file = EXT:mainzific_rim/Resources/Public/Icons/favicon.ico
+    }
+    fluidtemplate {
+        layoutRootPath = EXT:mainzific_rim/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:mainzific_rim/Resources/Private/Partials/Page/
+        templateRootPath = EXT:mainzific_rim/Resources/Private/Templates/Page/
+    }
+}
+
+
+##################
+### EXTENSIONS ###
+##################
+plugin.bootstrap_package {
+    view {
+        layoutRootPath = EXT:mainzific_rim/Resources/Private/Layouts/
+        partialRootPath = EXT:mainzific_rim/Resources/Private/Partials/
+        templateRootPath = EXT:mainzific_rim/Resources/Private/Templates/
+    }
+}
+
+
+########################
+### CONTENT ELEMENTS ###
+########################
+plugin.bootstrap_package_contentelements {
+    view {
+        layoutRootPath = EXT:mainzific_rim/Resources/Private/Layouts/ContentElements/
+        partialRootPath = EXT:mainzific_rim/Resources/Private/Partials/ContentElements/
+        templateRootPath = EXT:mainzific_rim/Resources/Private/Templates/ContentElements/
+    }
+}
+
+page.logo.file = EXT:mainzific_rim/Resources/Public/Images/logo-mainzific-rim.jpg
+page.logo.fileInverted = EXT:mainzific_rim/Resources/Public/Images/logo-mainzific-rim.jpg
+page.theme.meta.enable = 0
+page.theme.language.languageValue = 0,1
+page.theme.copyright.text = ###CURRENTYEAR###
+plugin.bootstrap_package.settings.less.brand-primary = #225ea6
+plugin.bootstrap_package.settings.less.panel-footer-bg = #2cace4
+plugin.bootstrap_package.settings.less.footer-bg = #2cace4
+plugin.bootstrap_package.settings.less.footer-meta-bg = #225ea6
+plugin.bootstrap_package.settings.less.footer-link-color = #fff

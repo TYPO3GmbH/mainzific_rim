@@ -1,0 +1,7 @@
+#
+# PageTS for Mainzific Rim
+#
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:mainzific_rim/Configuration/PageTS/RTE.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:mainzific_rim/Configuration/PageTS/TCEFORM.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:mainzific_rim/Configuration/PageTS/TCEMAIN.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:mainzific_rim/Configuration/PageTS/Mod/WebLayout/BackendLayouts.txt">
