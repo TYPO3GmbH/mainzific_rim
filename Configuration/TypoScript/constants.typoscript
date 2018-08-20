@@ -53,7 +53,6 @@ plugin.bootstrap_package_contentelements {
 page.logo.file = EXT:mainzific_rim/Resources/Public/Images/logo-mainzific-rim.jpg
 page.logo.fileInverted = EXT:mainzific_rim/Resources/Public/Images/logo-mainzific-rim.jpg
 page.theme.meta.enable = 0
-page.theme.language.languageValue = 0,1
 page.theme.copyright.text = ###CURRENTYEAR###
 plugin.bootstrap_package.settings.less.brand-primary = #225ea6
 plugin.bootstrap_package.settings.less.panel-footer-bg = #2cace4
