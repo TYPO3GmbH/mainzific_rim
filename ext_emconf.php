@@ -12,22 +12,21 @@ $EM_CONF[$_EXTKEY] = [
             'typo3' => '8.7.0-9.5.99',
             'rte_ckeditor' => '8.7.0-9.5.99',
             'bootstrap_package' => '9.1.0-9.1.99',
-            'news' => '7.0.5'
+            'news' => '7.0.*'
         ],
         'conflicts' => [
         ],
     ],
     'autoload' => [
         'psr-4' => [
-            'Typo3Gmbh\\MainzificRim\\' => 'Classes'
+            'T3G\\MainzificRim\\' => 'Classes'
         ],
     ],
     'state' => 'stable',
     'uploadfolder' => 0,
     'createDirs' => '',
     'clearCacheOnLoad' => 1,
-    'author' => 'Anja Leichsenring',
-    'author_email' => 'anja.leichsenring@typo3.com',
-    'author_company' => 'TYPO3 GmbH',
+    'author' => 'TYPO3 GmbH',
+    'author_email' => 'info@typo3.com',
     'version' => '1.0.0',
 ];
