@@ -9,9 +9,8 @@ $EM_CONF[$_EXTKEY] = [
     'category' => 'templates',
     'constraints' => [
         'depends' => [
-            'typo3' => '8.7.0-9.5.99',
-            'rte_ckeditor' => '8.7.0-9.5.99',
-            'bootstrap_package' => '9.1.0-9.1.99',
+            'typo3' => '8.7.0-8.7.99',
+            'bootstrap_package' => '10.0.0-10.0.99',
             'news' => '7.0.*'
         ],
         'conflicts' => [
@@ -28,5 +27,5 @@ $EM_CONF[$_EXTKEY] = [
     'clearCacheOnLoad' => 1,
     'author' => 'TYPO3 GmbH',
     'author_email' => 'info@typo3.com',
-    'version' => '1.0.0',
+    'version' => '1.0.0-dev',
 ];
