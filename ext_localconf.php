@@ -9,11 +9,5 @@ $GLOBALS['TYPO3_CONF_VARS']['RTE']['Presets']['mainzific_rim'] = 'EXT:mainzific_
 /***************
  * Add the login screen logo
  */
-// @extensionScannerIgnoreLine
-$backendConfiguration = $GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf']['backend'];
-if (!is_array($backendConfiguration)) {
-    $backendConfiguration = unserialize($backendConfiguration);
-}
-// Login Logo
-$backendConfiguration['loginLogo'] = 'EXT:mainzific_rim/Resources/Public/Images/mainzific_rim.svg';
-$GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf']['backend'] = serialize($backendConfiguration);
+
+$GLOBALS['TYPO3_CONF_VARS']['EXTENSIONS']['backend']['loginLogo'] = 'EXT:mainzific_rim/Resources/Public/Images/mainzific_rim.svg';

@@ -4,18 +4,18 @@
     "description": "Mainz in Danger - the site package for SkillDisplays gamification adventure to certified editors",
     "homepage": "https://typo3.com",
     "license": ["GPL-2.0-or-later"],
-    "keywords": ["TYPO3 CMS"],
-    "version": "1.0.0",
+    "keywords": ["TYPO3 CMS", "SkillDisplay, TCCE"],
     "require": {
-        "typo3/cms-core": "^8.7.0 || ^9.0",
-        "typo3/cms-rte-ckeditor": "^8.7.0 || ^9.0",
+        "typo3/cms-backend": "^9.5",
         "bk2k/bootstrap-package": "^10.0",
-        "typo3/cms-beuser": "^8.7.0 || ^9.0",
-        "typo3/cms-belog": "^8.7.0 || ^9.0",
-        "typo3/cms-tstemplate": "^8.7.0 || ^9.0",
-        "typo3/cms-form": "^8.7.0 || ^9.0",
-        "typo3/cms-felogin": "^8.7.0 || ^9.0",
-        "georgringer/news": "^7.0"
+        "georgringer/news": "^7.0",
+        "typo3/cms-recordlist": "^9.5",
+        "typo3/cms-belog": "^9.5",
+        "typo3/cms-tstemplate": "^9.5",
+        "typo3/cms-form": "^9.5",
+        "typo3/cms-felogin": "^9.5",
+        "typo3/cms-beuser": "^9.5",
+        "typo3/cms-filelist": "^9.5"
     },
     "autoload": {
         "psr-4": {
