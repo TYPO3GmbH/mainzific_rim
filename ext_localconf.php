@@ -11,3 +11,11 @@ $GLOBALS['TYPO3_CONF_VARS']['RTE']['Presets']['mainzific_rim'] = 'EXT:mainzific_
  */
 
 $GLOBALS['TYPO3_CONF_VARS']['EXTENSIONS']['backend']['loginLogo'] = 'EXT:mainzific_rim/Resources/Public/Images/mainzific_rim.svg';
+
+$dispatcher = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Extbase\SignalSlot\Dispatcher::class);
+$dispatcher->connect(
+    \TYPO3\CMS\Extensionmanager\Service\ExtensionManagementService::class,
+    'hasInstalledExtensions',
+    \T3G\MainzificRim\Setup\Setup::class,
+    'addBeUsers'
+);
