@@ -21,3 +21,11 @@ if (TYPO3_MODE === 'BE' && !class_exists(\TYPO3\CMS\Core\Configuration\Extension
     }
     $GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf']['backend'] = serialize($backendConfiguration);
 }
+
+$dispatcher = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Extbase\SignalSlot\Dispatcher::class);
+$dispatcher->connect(
+    \TYPO3\CMS\Extensionmanager\Service\ExtensionManagementService::class,
+    'hasInstalledExtensions',
+    \T3G\MainzificRim\Setup\Setup::class,
+    'addBeUsers'
+);
