@@ -1,7 +1,7 @@
 {
     "name": "t3g/mainzific-rim",
     "type": "typo3-cms-extension",
-    "description": "Mainz in Danger - the site package for SkillDisplays gamification adventure to certified editors",
+    "description": "Mainz in Danger - the site package for SkillDisplays gamification adventure for ongoing TYPO3 CMS certified editors",
     "homepage": "https://typo3.com",
     "license": ["GPL-2.0-or-later"],
     "keywords": ["TYPO3 CMS", "SkillDisplay", "TCCE"],
