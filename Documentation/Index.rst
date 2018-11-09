@@ -90,7 +90,7 @@ access to your TYPO3 installation:
 
 * Ready-to-use hosted package
     You are a beginner, just want to play the adventure and have no one to help you with the setup.
-    https://www.someserver.com/
+    (Coming soon...)
 * Site package
     You are part of an agency or school where you, a collegue, or a coach can create a setup for you.
     TYPO3 Extension Repository mainzific-rim_
