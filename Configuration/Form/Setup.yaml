@@ -1,0 +1,6 @@
+TYPO3:
+    CMS:
+        Form:
+            persistenceManager:
+                allowedExtensionPaths:
+                    120: EXT:mainzific_rim/Resources/Private/Forms/

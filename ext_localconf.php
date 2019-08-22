@@ -19,3 +19,23 @@ $dispatcher->connect(
     \T3G\MainzificRim\Setup\Setup::class,
     'addBeUsers'
 );
+
+/***************
+ * Register custom EXT:form configuration
+ */
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTypoScriptSetup(trim('
+    module.tx_form {
+        settings {
+            yamlConfigurations {
+                120 = EXT:mainzific_rim/Configuration/Form/Setup.yaml
+            }
+        }
+    }
+    plugin.tx_form {
+        settings {
+            yamlConfigurations {
+                120 = EXT:mainzific_rim/Configuration/Form/Setup.yaml
+            }
+        }
+    }
+'));

@@ -6,3 +6,8 @@
 
 page.theme.language.languageValue = auto
 config.admPanel = 1
+
+page.includeJSFooter.jqueryUi = https://code.jquery.com/ui/1.12.1/jquery-ui.min.js
+page.includeJSFooter.jqueryUi.external = 1
+page.includeCSS.jqueryUi = https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css
+page.includeCSS.jqueryUi.external = 1

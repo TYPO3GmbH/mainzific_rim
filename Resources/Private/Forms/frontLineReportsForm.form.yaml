@@ -1,0 +1,162 @@
+
+renderingOptions:
+  submitButtonLabel: Submit
+type: Form
+identifier: frontLineReportsForm
+label: 'Front Line Reports Form'
+prototypeName: standard
+finishers:
+  -
+    options:
+      subject: 'Front Line report'
+      recipientAddress: saurusdefense@skilldisplay.eu
+      recipientName: 'Saurus Defense'
+      senderAddress: '{email-1}'
+      senderName: '{text-1} {text-2}'
+      replyToAddress: ''
+      carbonCopyAddress: ''
+      blindCarbonCopyAddress: ''
+      format: plaintext
+      attachUploads: false
+      translation:
+        language: ''
+    identifier: EmailToReceiver
+  -
+    options:
+      message: 'Thank you for the report. The military will be on location shortly. Now get yourself out of the danger zone, soldier!'
+      contentElementUid: ''
+    identifier: Confirmation
+renderables:
+  -
+    renderingOptions:
+      previousButtonLabel: 'Previous step'
+      nextButtonLabel: 'Next step'
+    type: Page
+    identifier: page-1
+    label: Step
+    renderables:
+      -
+        type: GridRow
+        identifier: gridrow-1
+        label: 'Grid: Row'
+        renderables:
+          -
+            defaultValue: ''
+            type: Text
+            identifier: text-1
+            label: 'First Name'
+            properties:
+              elementDescription: ''
+              fluidAdditionalAttributes:
+                required: required
+            validators:
+              -
+                identifier: NotEmpty
+          -
+            defaultValue: ''
+            type: Text
+            identifier: text-2
+            label: 'Last Name'
+            properties:
+              fluidAdditionalAttributes:
+                required: required
+            validators:
+              -
+                identifier: NotEmpty
+      -
+        type: GridRow
+        identifier: gridrow-2
+        label: 'Grid: Row'
+        renderables:
+          -
+            defaultValue: ''
+            type: Email
+            identifier: email-1
+            label: E-Mail
+            properties:
+              fluidAdditionalAttributes:
+                required: required
+            validators:
+              -
+                identifier: EmailAddress
+              -
+                identifier: NotEmpty
+          -
+            properties:
+              dateFormat: d.m.Y
+              enableDatePicker: true
+              displayTimeSelector: false
+              fluidAdditionalAttributes:
+                required: required
+            type: DatePicker
+            identifier: datepicker-1
+            label: Date
+            validators:
+              -
+                identifier: DateTime
+              -
+                identifier: NotEmpty
+      -
+        type: GridRow
+        identifier: gridrow-3
+        label: 'Grid: Row'
+        renderables:
+          -
+            properties:
+              options:
+                1: '1'
+                2: '2'
+                3: '3'
+                4: '4'
+                5: '5'
+                6: '6'
+                7: '7'
+                8: '8'
+              fluidAdditionalAttributes:
+                required: required
+              prependOptionLabel: 'please select the district number from below'
+            type: SingleSelect
+            identifier: singleselect-1
+            label: District
+            validators:
+              -
+                identifier: NotEmpty
+          -
+            properties:
+              options:
+                low: Low
+                medium: Medium
+                high: High
+              fluidAdditionalAttributes:
+                required: required
+            type: RadioButton
+            identifier: radiobutton-1
+            label: 'Nearby population'
+            validators:
+              -
+                identifier: NotEmpty
+          -
+            properties:
+              options:
+                'Eyes flicking from left to right': 'Eyes flicking from left to right'
+                Roaring: Roaring
+                Snoring: Snoring
+                'Wiggling front paws': 'Wiggling front paws'
+              elementDescription: 'What is it doing?'
+            type: MultiCheckbox
+            identifier: multicheckbox-1
+            label: 'Saurus habits'
+            validators:
+              -
+                identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Textarea
+        identifier: textarea-1
+        label: Description
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+        validators:
+          -
+            identifier: NotEmpty
