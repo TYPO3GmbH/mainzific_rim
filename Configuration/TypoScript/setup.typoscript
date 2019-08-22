@@ -5,3 +5,4 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:seo/Configuration/TypoScript/XmlSitemap/setup.typoscript">
 
 page.theme.language.languageValue = auto
+config.admPanel = 1
