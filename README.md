@@ -44,4 +44,13 @@ Note:
     Since TYPO3 v9, you will need to provide a site configuration for human readable URLs and beautiful language
     menu out of the box. Since the core is not yet ready to get a site configuration injected with a site package, please
     find an example configuration, that works nicely with this package, in ext:mainzific_rim/Configuration/sites.
-    You can just copy the file into config/sites of your installation. No Error Handling is configured, though.
+    No Error Handling is configured, though.
+
+In a composer based installation, create a folder `config` into your instance root (same level as `public`).
+In a traditional installation, create a folder `config` inside the `typo3conf` folder.
+Copy the whole `sites` folder from `ext:mainzific_rim/Configuration` into this newly created `config` folder.
+
+Troubleshooting: If your copied sites configuration will not be accepted by TYPO3 (check inside the sites module in BE), you can
+have TYPO3 create a site config. Just fill in the form so far it gets accepted for submission. Then, check in the files where the
+`config` folder ended up. Then, override the config.yaml with the one from ext:mainzific_rim.
+    
