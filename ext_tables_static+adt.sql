@@ -109,7 +109,7 @@ TRUNCATE TABLE `sys_template`;
 -- Dumping data for table `sys_template`
 --
 
-INSERT INTO `sys_template` (`uid`, `pid`, `tstamp`, `crdate`, `cruser_id`, `deleted`, `hidden`, `starttime`, `endtime`, `sorting`, `description`, `t3_origuid`, `t3ver_oid`, `t3ver_id`, `t3ver_label`, `t3ver_wsid`, `t3ver_state`, `t3ver_stage`, `t3ver_count`, `t3ver_tstamp`, `t3ver_move_id`, `title`, `sitetitle`, `root`, `clear`, `include_static_file`, `constants`, `config`, `nextLevel`, `basedOn`, `includeStaticAfterBasedOn`, `static_file_mode`) VALUES(1, 1, 1534065748, 1532855263, 1, 0, 0, 0, 0, 256, NULL, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 'NEW SITE', '', 1, 3, 'EXT:form/Configuration/TypoScript/,EXT:news/Configuration/TypoScript,EXT:news/Configuration/TypoScript/Styles/Twb,EXT:mainzific_rim/Configuration/TypoScript', '', '', '', '', 0, 0);
+INSERT INTO `sys_template` (`uid`, `pid`, `tstamp`, `crdate`, `cruser_id`, `deleted`, `hidden`, `starttime`, `endtime`, `sorting`, `description`, `t3_origuid`, `t3ver_oid`, `t3ver_id`, `t3ver_label`, `t3ver_wsid`, `t3ver_state`, `t3ver_stage`, `t3ver_count`, `t3ver_tstamp`, `t3ver_move_id`, `title`, `sitetitle`, `root`, `clear`, `include_static_file`, `constants`, `config`, `nextLevel`, `basedOn`, `includeStaticAfterBasedOn`, `static_file_mode`) VALUES (1, 1, 1566577008, 1532855263, 1, 0, 0, 0, 0, 256, NULL, 0, 0, 0, '', 0, 0, 0, 0, 0, 0, 'NEW SITE', '', 1, 3, 'EXT:form/Configuration/TypoScript/,EXT:news/Configuration/TypoScript,EXT:news/Configuration/TypoScript/Styles/Twb,EXT:mainzific_rim/Configuration/TypoScript,EXT:seo/Configuration/TypoScript/XmlSitemap,EXT:bootstrap_package/Configuration/TypoScript,EXT:news/Configuration/TypoScript/Sitemap', '', '', '', '', 0, 0);
 
 --
 -- Truncate table before insert `tt_content`
