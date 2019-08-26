@@ -28,5 +28,5 @@ $EM_CONF[$_EXTKEY] = [
     'clearCacheOnLoad' => 1,
     'author' => 'TYPO3 GmbH',
     'author_email' => 'info@typo3.com',
-    'version' => '2.0.3-dev',
+    'version' => '2.0.3',
 ];
