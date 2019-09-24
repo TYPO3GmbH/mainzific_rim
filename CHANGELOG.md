@@ -1,3 +1,11 @@
+# 2.0.4
+
+## TASK
+- [TASK] Add ext:setup to allow password change for be_users c87c7c9
+
+## BUGFIX
+- [BUGFIX] Change headline of homepage CE 1fded5e
+
 # 2.0.3
 
 ## TASK
