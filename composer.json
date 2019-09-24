@@ -24,6 +24,7 @@
         "typo3/cms-filelist": "^9.5",
         "typo3/cms-adminpanel": "^9.5",
         "typo3/cms-seo": "^9.5",
+        "typo3/cms-setup": "^9.5",
         "typo3/cms-redirects": "^9.5"
     },
     "autoload": {
