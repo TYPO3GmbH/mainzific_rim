@@ -3,8 +3,12 @@
     "type": "typo3-cms-extension",
     "description": "Mainz in Danger - the site package for SkillDisplays gamification adventure for ongoing TYPO3 CMS certified editors",
     "homepage": "https://typo3.com",
-    "license": ["GPL-2.0-or-later"],
-    "keywords": ["TYPO3 CMS"],
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "keywords": [
+        "TYPO3 CMS"
+    ],
     "require": {
         "typo3/cms-core": "^8.7.0",
         "typo3/cms-rte-ckeditor": "^8.7.0",
@@ -21,6 +25,11 @@
     "autoload": {
         "psr-4": {
             "T3G\\MainzificRim\\": "Classes/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-v8": "1.0.x-dev"
         }
     }
 }
