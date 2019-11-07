@@ -1,3 +1,9 @@
+# 1.0.6
+
+## TASK
+- [TASK] Update composer.json and gitignore c6bfeed
+- [TASK] Adapt for documentation rendering 8c646cb
+
 # 1.0.5
 
 ## TASK
