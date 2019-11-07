@@ -11,31 +11,49 @@
         "SkillDisplay",
         "TCCE"
     ],
-    "require": {
-        "typo3/cms-core": "^9.5",
-        "typo3/cms-backend": "^9.5",
-        "bk2k/bootstrap-package": "^10.0",
-        "georgringer/news": "^7.0",
-        "typo3/cms-recordlist": "^9.5",
-        "typo3/cms-belog": "^9.5",
-        "typo3/cms-tstemplate": "^9.5",
-        "typo3/cms-form": "^9.5",
-        "typo3/cms-felogin": "^9.5",
-        "typo3/cms-beuser": "^9.5",
-        "typo3/cms-filelist": "^9.5",
-        "typo3/cms-adminpanel": "^9.5",
-        "typo3/cms-seo": "^9.5",
-        "typo3/cms-setup": "^9.5",
-        "typo3/cms-redirects": "^9.5"
+    "support": {
+        "issues": "https://github.com/TYPO3GmbH/mainzific_rim/issues",
+        "docs": "https://docs.typo3.org/p/t3g/mainzific-rim/master/en-us/",
+        "source": "https://github.com/TYPO3GmbH/mainzific_rim.git"
+    },
+    "config": {
+        "sort-packages": true,
+        "discard-changes": true,
+        "vendor-dir": ".build/vendor",
+        "bin-dir": ".build/bin"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "mainzific_rim",
+            "web-dir": ".build"
+        },
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
     },
     "autoload": {
         "psr-4": {
             "T3G\\MainzificRim\\": "Classes/"
         }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.0.x-dev"
-        }
+    "require": {
+        "bk2k/bootstrap-package": "^10.0",
+        "georgringer/news": "^7.0",
+        "typo3/cms-adminpanel": "^9.5",
+        "typo3/cms-backend": "^9.5",
+        "typo3/cms-belog": "^9.5",
+        "typo3/cms-beuser": "^9.5",
+        "typo3/cms-core": "^9.5",
+        "typo3/cms-felogin": "^9.5",
+        "typo3/cms-filelist": "^9.5",
+        "typo3/cms-form": "^9.5",
+        "typo3/cms-recordlist": "^9.5",
+        "typo3/cms-redirects": "^9.5",
+        "typo3/cms-seo": "^9.5",
+        "typo3/cms-setup": "^9.5",
+        "typo3/cms-tstemplate": "^9.5"
+    },
+    "require-dev": {
+        "bk2k/extension-helper": "^1.0"
     }
 }

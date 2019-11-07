@@ -1,1 +1,5 @@
+.build
 .editorconfig
+.idea
+*.zip
+composer.lock
