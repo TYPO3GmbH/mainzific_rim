@@ -1,3 +1,9 @@
+# 2.0.5
+
+## TASK
+- [TASK] Update composer.json and gitignore 65bfa4e
+- [TASK] Adapt for documentation rendering c58c3ef
+
 # 2.0.4
 
 ## TASK
