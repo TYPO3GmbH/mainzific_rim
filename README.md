@@ -1,7 +1,7 @@
 Sitepackage for the project "Mainzific Rim"
 ===========================================
 
-The package serves as a base for TYPO3 v8 sites used in the Mainzific Rim adventure.
+The package serves as a base for TYPO3 9 LTS sites used in the Mainzific Rim adventure.
 Young students solve missions in order to save Mainz from a Dino attack and become Certified TYPO3 editors
 doing so.
 
