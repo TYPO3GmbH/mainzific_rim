@@ -1,3 +1,15 @@
+# 2.0.6
+
+## TASK
+- [TASK] Update README.md a5a71ef
+
+## BUGFIX
+- [BUGFIX] Add missing access rights for editors, streamline config ad2b1de
+
+## MISC
+- Update README.md a6c3aff
+- Update Index.rst c826949
+
 # 2.0.5
 
 ## TASK
