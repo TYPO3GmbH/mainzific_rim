@@ -36,7 +36,7 @@ or verified by your school, employer or a certifier.
 
 Visit the MainzificRim_website_ to download the adventure.
 
-.. _MainzificRim_website: https://www.skilldisplay.eu/en/intellectual-outputs/typo3-gamification/
+.. _MainzificRim_website: https://www.skilldisplay.eu/intellectual-outputs/typo3-gamification/
 
 .. _skilldisplay_registration: https://www.skilldisplay.eu/en/account/register/
 
